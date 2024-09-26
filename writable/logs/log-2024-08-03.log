@@ -1,0 +1,18 @@
+INFO - 2024-08-03 08:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 08:01:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$session is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-03 08:01:36 --> ErrorException: Undefined array key "security_type"
+[Method: GET, Route: admin/maindashboard]
+in APPPATH\Controllers\Admin\Dashboard.php on line 63.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "security_type"', 'D:\\wamp64\\www\\adani_server\\app\\Controllers\\Admin\\Dashboard.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Dashboard->maindashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
